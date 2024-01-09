@@ -4,11 +4,9 @@
   &__bio-image {
     height: 50vh;
     width: 100%;
-    background: linear-gradient(
-        to right,
+    background: linear-gradient(to right,
         rgba($primary-color, 0.9),
-        rgba($primary-color, 0.3)
-      ),
+        rgba($primary-color, 0.3)),
       url(../img/DSCF0502.JPG) center top;
     background-size: cover;
     display: flex;
@@ -46,6 +44,7 @@
       h3 {
         margin: 0.5rem 0;
       }
+
       h6 {
         margin: 0.3rem 0;
       }
@@ -58,7 +57,6 @@
   }
 
   footer {
-    transform: rotate(90deg)
-    translate(-3rem, -5rem);
+    transform: rotate(90deg) translate(-3rem, -5rem);
   }
 }
