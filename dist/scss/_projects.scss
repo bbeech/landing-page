@@ -28,7 +28,15 @@
     display: grid;
     grid-template-columns: 1fr;
     grid-gap: 2rem;
+    padding-bottom: 2em;
   }
+
+  &__title {
+    text-align: center;
+    font-size: 2rem;
+    margin: 1rem 0; // Adjusts spacing around the title if needed
+  }
+
   &__item {
     position: relative;
     border-bottom: 5px solid $secondary-color;
@@ -54,7 +62,7 @@
     &:hover {
       &::after {
         top: 0;
-        opacity: 0.9;
+        opacity: 0.8;
       }
       .projects__btn {
         opacity: 1;
