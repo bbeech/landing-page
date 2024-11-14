@@ -266,6 +266,21 @@
   transform: rotate(90deg) translate(-3rem, -5rem);
 }
 
+.wordpress-projects {
+  margin-top: 2rem;
+  width: 80vw;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+}
+.wordpress-projects .projects__item img {
+  width: 100%;
+  height: auto;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.wordpress-projects .projects__item:hover .projects__btn {
+  opacity: 1;
+}
+
 .contact {
   height: 100%;
   padding-top: 40vh;
