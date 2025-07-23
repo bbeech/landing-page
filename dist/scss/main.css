@@ -200,6 +200,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: flex-end;
+  padding: 1rem;
 }
 .projects__bio-image .text-secondary {
   font-size: 2rem;
