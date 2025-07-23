@@ -169,7 +169,7 @@
   grid-gap: 2rem;
 }
 .about .jobs__job {
-  background: #414141;
+  background: rgb(64.5, 64.5, 64.5);
   padding: 0.5rem;
   border-bottom: 5px solid #f86b38;
 }
@@ -206,7 +206,7 @@
   margin-bottom: 2rem;
 }
 .projects__items {
-  width: 60vw;
+  width: 70vw;
   margin: 2rem auto 0 auto;
   display: grid;
   grid-template-columns: 1fr;
@@ -216,7 +216,7 @@
 .projects__title {
   text-align: center;
   font-size: 2rem;
-  margin: 1rem 0;
+  margin: 2rem 0;
 }
 .projects__item {
   position: relative;
@@ -240,7 +240,7 @@
 }
 .projects__item:hover::after {
   top: 0;
-  opacity: 0.8;
+  opacity: 0.9;
 }
 .projects__item:hover .projects__btn {
   opacity: 1;
@@ -252,7 +252,6 @@
   width: 100%;
   z-index: 1;
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
   align-items: center;
   text-align: center;
 }
@@ -270,21 +269,6 @@
 }
 .projects footer {
   transform: rotate(90deg) translate(-3rem, -5rem);
-}
-
-.wordpress-projects {
-  margin-top: 2rem;
-  width: 80vw;
-  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-}
-.wordpress-projects .projects__item img {
-  width: 100%;
-  height: auto;
-  -o-object-fit: cover;
-     object-fit: cover;
-}
-.wordpress-projects .projects__item:hover .projects__btn {
-  opacity: 1;
 }
 
 .contact {
