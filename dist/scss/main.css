@@ -89,7 +89,7 @@
   flex-flow: column wrap;
   align-items: center;
   justify-content: center;
-  height: 100vw;
+  height: 100vh;
   overflow: hidden;
   background-color: #272727;
   list-style: none;
@@ -312,6 +312,11 @@
     height: 100%;
     background: transparent;
     text-align: right;
+    transition: background-color 0.3s ease;
+  }
+  .nav .menu-nav.scrolled {
+    background-color: #1b1b1b;
+    opacity: 0.9;
   }
   .nav .menu-nav__item {
     display: inline;

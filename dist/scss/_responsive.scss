@@ -12,6 +12,13 @@
       height: 100%;
       background: transparent;
       text-align: right;
+      transition: background-color 0.3s ease;
+
+      // Scrolled state - black background with opacity
+    &.scrolled {
+      background-color: ($tertiary-color);
+      opacity: 0.9;
+    }
 
       &__item {
         display: inline;

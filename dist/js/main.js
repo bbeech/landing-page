@@ -24,3 +24,14 @@ function toggleMenu() {
         showMenu = false;
     }
 }
+
+// Add scroll event listener for header background
+window.addEventListener('scroll', function() {
+  const scrollThreshold = 50; // Adjust this value as needed
+  
+  if (window.scrollY > scrollThreshold) {
+    menuNav.classList.add('scrolled');
+  } else {
+    menuNav.classList.remove('scrolled');
+  }
+});
