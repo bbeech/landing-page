@@ -221,52 +221,31 @@
 }
 .projects__item {
   position: relative;
-  border-bottom: 5px solid #f86b38;
+  border-bottom: 4px solid #f86b38;
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 8px;
   overflow: hidden;
-  cursor: pointer;
 }
 .projects__item img {
   width: 100%;
-}
-.projects__item::after {
-  content: "";
-  position: absolute;
-  top: 100%;
-  left: 0;
-  height: 100%;
-  width: 100%;
-  background: #f86b38;
-  opacity: 0;
-  transition: all 0.5s ease-in-out;
-}
-.projects__item:hover::after {
-  top: 0;
-  opacity: 0.8;
-}
-.projects__item:hover .projects__btn {
-  opacity: 1;
-}
-.projects__btns {
-  position: absolute;
-  top: 0;
-  height: 100%;
-  width: 100%;
-  z-index: 1;
-  display: grid;
-  align-items: center;
-  text-align: center;
-}
-.projects__btn {
-  opacity: 0;
-  color: #000;
-  transition: all 0.5s ease-in-out;
-}
-.projects__btn:hover {
-  color: #fff;
+  padding-bottom: 10px;
+  padding-top: 10px;
 }
 .projects .social-icons {
   display: flex;
   flex-direction: column;
+}
+.projects .button {
+  color: #ffffff;
+  background-color: rgba(255, 255, 255, 0.15);
+  padding: 20px;
+  margin-top: 40px;
+  margin-bottom: 10px;
+  border-radius: 3px;
+  text-decoration: none;
+  border: 1px solid #f86b38;
+  outline: none;
+  cursor: pointer;
 }
 .projects footer {
   transform: rotate(90deg) translate(-3rem, -5rem);
@@ -364,8 +343,8 @@ body {
   color: #fff;
   height: 100vh;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  line-height: 1;
-  font-size: 20px;
+  line-height: 1.2;
+  font-size: 18px;
 }
 
 h1, h2, h3 {
