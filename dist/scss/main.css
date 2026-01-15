@@ -241,7 +241,7 @@
 }
 .projects__item:hover::after {
   top: 0;
-  opacity: 0.9;
+  opacity: 0.8;
 }
 .projects__item:hover .projects__btn {
   opacity: 1;
@@ -365,6 +365,7 @@ body {
   height: 100vh;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   line-height: 1;
+  font-size: 20px;
 }
 
 h1, h2, h3 {

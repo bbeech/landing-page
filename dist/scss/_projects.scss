@@ -63,7 +63,7 @@
     &:hover {
       &::after {
         top: 0;
-        opacity: 0.9;
+        opacity: 0.8;
       }
       .projects__btn {
         opacity: 1;
@@ -102,28 +102,3 @@
     transform: rotate(90deg) translate(-3rem, -5rem);
   }
 }
-
-// // Styles for WordPress Sites Section
-// .wordpress-projects {
-//   margin-top: 2rem;
-//   width: 80vw; // Slightly wider than the other project grid if you prefer
-//   grid-template-columns: repeat(
-//     auto-fill,
-//     minmax(200px, 1fr)
-//   ); // Responsive grid
-
-//   .projects__item {
-//     img {
-//       width: 100%;
-//       height: auto;
-//       object-fit: cover;
-//     }
-
-//     // Optional: add specific hover or layout modifications for WordPress sites
-//     &:hover {
-//       .projects__btn {
-//         opacity: 1;
-//       }
-//     }
-//   }
-// }
