@@ -1,8 +1,10 @@
 
   .about__bio-image {
-    height: 60vh;
+    height: 70vh;
   }
-
+.projects__bio-image {
+  height: 60vh
+}
 
 @include media-md {
   .menu-btn {

@@ -24,7 +24,7 @@
   }
 
   &__items {
-    width: 70vw;
+    width: 80vw;
     margin: 2rem auto 0 auto;
     display: grid;
     grid-template-columns: 1fr;
@@ -95,9 +95,16 @@
   //   }
   // }
 
-  .social-icons {
+   .social-icons {
     display: flex;
     flex-direction: column;
+    gap: 30px;
+    margin-left: -16px;
+    padding-bottom: 20px;
+  }
+
+  footer {
+    transform: rotate(90deg) translate(-4rem, -5rem);
   }
 
   .button {
@@ -113,7 +120,5 @@
     cursor: pointer;
   }
 
-  footer {
-    transform: rotate(90deg) translate(-3rem, -5rem);
-  }
+
 }

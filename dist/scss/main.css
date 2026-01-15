@@ -210,7 +210,7 @@
   margin-bottom: 2rem;
 }
 .projects__items {
-  width: 70vw;
+  width: 80vw;
   margin: 2rem auto 0 auto;
   display: grid;
   grid-template-columns: 1fr;
@@ -237,6 +237,12 @@
 .projects .social-icons {
   display: flex;
   flex-direction: column;
+  gap: 30px;
+  margin-left: -16px;
+  padding-bottom: 20px;
+}
+.projects footer {
+  transform: rotate(90deg) translate(-4rem, -5rem);
 }
 .projects .button {
   color: #ffffff;
@@ -249,9 +255,6 @@
   border: 1px solid #f86b38;
   outline: none;
   cursor: pointer;
-}
-.projects footer {
-  transform: rotate(90deg) translate(-3rem, -5rem);
 }
 
 .contact {
@@ -282,6 +285,10 @@
 }
 
 .about__bio-image {
+  height: 70vh;
+}
+
+.projects__bio-image {
   height: 60vh;
 }
 
