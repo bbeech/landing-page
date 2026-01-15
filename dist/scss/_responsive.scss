@@ -7,6 +7,9 @@
 }
 
 @include media-md {
+  main .social-icons {
+   font-size: 20px;
+  }
   .menu-btn {
     visibility: hidden;
   }
@@ -38,6 +41,7 @@
       }
     }
   }
+
 
   .about__bio {
     font-size: 1.2rem;

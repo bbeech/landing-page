@@ -188,6 +188,11 @@
   margin-left: -16px;
   padding-bottom: 20px;
 }
+@media screen and (min-width: 768px) {
+  .about .social-icons {
+    font-size: 20px;
+  }
+}
 .about footer {
   transform: rotate(90deg) translate(-4rem, -5rem);
 }
@@ -242,6 +247,11 @@
   margin-left: -16px;
   padding-bottom: 20px;
 }
+@media screen and (min-width: 768px) {
+  .projects .social-icons {
+    font-size: 20px;
+  }
+}
 .projects footer {
   transform: rotate(90deg) translate(-4rem, -5rem);
 }
@@ -284,6 +294,11 @@
   position: initial;
   margin-top: 3rem;
 }
+@media screen and (min-width: 768px) {
+  .contact .social-icons {
+    font-size: 20px;
+  }
+}
 
 .about__bio-image {
   height: 70vh;
@@ -294,6 +309,9 @@
 }
 
 @media screen and (min-width: 768px) {
+  main .social-icons {
+    font-size: 20px;
+  }
   .menu-btn {
     visibility: hidden;
   }
@@ -390,6 +408,7 @@ main .social-icons {
   position: fixed;
   bottom: 1rem;
   left: 1rem;
+  font-size: 10px;
 }
 main .social-icons a {
   padding: 0.4rem;
@@ -407,8 +426,4 @@ footer {
   text-align: right;
   padding: 1rem;
   color: #fff;
-}
-
-.social-icons {
-  font-size: 10px;
 }/*# sourceMappingURL=main.css.map */

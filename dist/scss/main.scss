@@ -43,6 +43,7 @@ main {
        position: fixed;
        bottom: 1rem;
        left: 1rem;
+       font-size: 10px;
        
        a {
         padding: 0.4rem;
@@ -65,6 +66,3 @@ footer {
     color: set-text-color($primary-color);
 }
 
-.social-icons {
-    font-size: 10px;
-}
