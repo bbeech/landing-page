@@ -54,10 +54,12 @@
   .social-icons {
     display: flex;
     flex-direction: column;
+    gap: 30px;
     margin-left: -16px;
+    padding-bottom: 20px;
   }
 
   footer {
-    transform: rotate(90deg) translate(-3rem, -5rem);
+    transform: rotate(90deg) translate(-4rem, -5rem);
   }
 }
