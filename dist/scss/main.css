@@ -162,7 +162,7 @@
   padding-bottom: 1rem;
 }
 .about .jobs {
-  width: 60vw;
+  width: 80vw;
   margin: 2rem auto 0 auto;
   display: grid;
   grid-template-columns: 1fr;
@@ -183,6 +183,7 @@
 .about .social-icons {
   display: flex;
   flex-direction: column;
+  margin-left: -16px;
 }
 .about footer {
   transform: rotate(90deg) translate(-3rem, -5rem);
@@ -396,4 +397,8 @@ footer {
   text-align: right;
   padding: 1rem;
   color: #fff;
+}
+
+.social-icons {
+  font-size: 12px;
 }/*# sourceMappingURL=main.css.map */
