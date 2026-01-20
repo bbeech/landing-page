@@ -4,7 +4,8 @@
     padding-top: 80px;
   }
 .projects__bio-image {
-  height: 60vh
+    min-height: 400px;
+    padding-top: 80px;
 }
 
 @include media-md {

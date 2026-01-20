@@ -200,7 +200,6 @@
   padding-bottom: 2rem;
 }
 .projects__bio-image {
-  height: 30vh;
   width: 100%;
   background: linear-gradient(to right, rgba(39, 39, 39, 0.9), rgba(39, 39, 39, 0.3)), url(../img/waterfall_background.webp) center top;
   background-size: cover;
@@ -214,6 +213,10 @@
   font-size: 2rem;
   margin-bottom: 2rem;
 }
+.projects__bio-blurb {
+  width: 80%;
+  text-align: center;
+}
 .projects__items {
   width: 80vw;
   margin: 2rem auto 0 auto;
@@ -226,6 +229,7 @@
   text-align: center;
   font-size: 2rem;
   margin: 2rem 0;
+  color: #f86b38;
 }
 .projects__item {
   position: relative;
@@ -305,7 +309,8 @@
 }
 
 .projects__bio-image {
-  height: 60vh;
+  min-height: 400px;
+  padding-top: 80px;
 }
 
 @media screen and (min-width: 768px) {
