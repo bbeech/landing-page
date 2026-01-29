@@ -12,6 +12,10 @@ $tertiary-color: #1b1b1b;
     transition: all 0.5s ease-in-out;
 }
 
+@mixin transition-delay {
+    transition-delay: 1s;
+}
+
 @function set-text-color($color) {
     @if (lightness($color) > 40%) {
         @return #000;

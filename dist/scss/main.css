@@ -109,7 +109,9 @@
   transform: translateX(0);
 }
 .nav .menu-nav__item.active > a {
-  color: #f86b38;
+  border-bottom: 4px solid #f86b38;
+  padding-bottom: 8px;
+  transform: translateY(8px);
 }
 .nav .menu-nav__link {
   display: inline-block;
@@ -121,6 +123,7 @@
 }
 .nav .menu-nav__link:hover {
   color: #f86b38;
+  transform: scale(1.2);
 }
 
 .menu-nav__item:nth-child(1) {
