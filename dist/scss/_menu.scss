@@ -91,7 +91,7 @@
             &.active > a {
                 border-bottom: 4px solid $secondary-color;
                 padding-bottom: 8px;
-                transform: translateY(8px);
+                transform: translateY(-6px);
             }
         }
 
@@ -105,7 +105,7 @@
 
             &:hover {
                 color: $secondary-color;
-                transform: scale(1.2);
+                transform: scale(1.15);
             }
         }
     }
