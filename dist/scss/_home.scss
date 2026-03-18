@@ -36,7 +36,7 @@
            color: $secondary-color;
            font-weight: 900;
            font-size: 26px;
-           @include fade-in-slide(650ms)
+           @include fade-in-slide(1s)
         }
     }
 }

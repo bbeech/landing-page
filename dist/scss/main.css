@@ -47,7 +47,7 @@
   font-size: 26px;
   opacity: 0;
   animation: fadeInUp 1s ease-out forwards;
-  animation-delay: 650ms;
+  animation-delay: 1s;
 }
 
 .menu-btn {
@@ -198,7 +198,8 @@
 }
 .about .jobs__job {
   background: rgb(64.5, 64.5, 64.5);
-  padding: 0.5rem;
+  padding: 20px;
+  border-radius: 7px 7px 0 0;
   border-bottom: 5px solid #f86b38;
 }
 .about .jobs__job h2,
