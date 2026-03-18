@@ -39,3 +39,18 @@ $tertiary-color: #1b1b1b;
         @content;
     }
 }
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+@mixin fade-in-slide($delay: 0s, $duration: 1s) {
+    opacity: 0;
+    animation: fadeInUp $duration ease-out forwards;
+    animation-delay: $delay;
+}

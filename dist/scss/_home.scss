@@ -25,4 +25,18 @@
             font-weight: 700;
         }
     }
+    &__blurb {
+        text-align: center;
+        margin: 0 auto;
+        max-width: 500px;
+        padding: 20px;
+        line-height: 1;
+
+        &--hook {
+           color: $secondary-color;
+           font-weight: 900;
+           font-size: 26px;
+           @include fade-in-slide(650ms)
+        }
+    }
 }
